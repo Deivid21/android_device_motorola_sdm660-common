@@ -218,6 +218,14 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     MotoActions
 
+# Moto TimeWeather
+PRODUCT_PACKAGES += \
+    TimeWeather
+
+# Moto Live Wallpaper
+PRODUCT_PACKAGES += \
+    MotoLiveWallpaper3
+
 # Network
 PRODUCT_PACKAGES += \
     netutils-wrapper-1.0
@@ -363,10 +371,6 @@ PRODUCT_PACKAGES += \
 # Touchscreen
 PRODUCT_PACKAGES += \
     libtinyxml2
-
-# Trust HAL
-PRODUCT_PACKAGES += \
-    vendor.lineage.trust@1.0-service
 
 # USB
 PRODUCT_PACKAGES += \
