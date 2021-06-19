@@ -225,6 +225,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     MotoLiveWallpaper3
 
+# Moto Dolby
+PRODUCT_PACKAGES += \
+    MotoDolbyV3
+
+$(call inherit-product, packages/apps/MotoDolbyV3/config.mk)
+
 # Network
 PRODUCT_PACKAGES += \
     netutils-wrapper-1.0
